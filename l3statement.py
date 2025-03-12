@@ -102,6 +102,42 @@ else:
 print(type({"name":"susu"})) # <class 'dict'>
 
 
+
+
+
+# Nested if statement
+
+initnum = 10
+
+if initnum > 0:
+    print('The Init Number is positive')
+    if initnum % 2 == 0:
+        print('The Init Number is even')
+    else:
+        print("The Init Number is odd")
+else:
+    print('The Init Number is not positive')
+
+
+
+
+#Ternary conditional operator
+# true if condition else false
+
+initidx = 10
+
+result = "Positive Idx" if initidx > 0 else "Negative Idx"
+print(result) # Positive Idx
+
+result = "Even Idx" if initidx % 2 == 0 else "Odd Idx"
+print(result) # Even Idx
+
+
+gamestatus = False
+color = "Green Color" if gamestatus == True else "Red Color"
+print(color) # Red Color
+
+
 #Comparison Operators
 # == Equal
 # != Not Equal
